@@ -1,0 +1,21 @@
+type: yolov8_tractor
+name: yolov8s_tractor
+display_name: yolov8_tractor
+model_path: runs/detect/train21/weights/best.pt
+confidence_threshold: 0.25
+classes:
+  - Draft
+  - Hoist
+  - Tractor
+  - agv
+  - hook1
+  - hook2
+  - left_wheel
+  - motor
+  - pen
+  - person
+  - right_wheel
+  - ruler
+  - scanner
+  - torque
+
